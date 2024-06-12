@@ -1,0 +1,133 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+.App {
+  text-align: center;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.drink-title {
+  /* Remove quotation marks around property values */
+  margin-top: 15px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.drink-description {
+  font-size: 12px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: -30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.drinkIMG {
+  margin-top: -18px;
+  transition: translateX(10%);
+}
+
+.persona-title {
+  font-size: clamp(1rem, 2vw, 1rem);
+  margin-top: -30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.home-drink-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ingredient-card {
+  padding: 10px;
+  
+  font-family: "Courier New", Courier, monospace;
+}
+
+.limeIcon {
+  color: #bfff00;
+  font-size: 18px;
+}
+
+.cranberryIcon {
+  color: #a13e57;
+  font-size: 18px;
+}
+
+.pineappleIcon {
+  color: #faff68;
+  font-size: 18px;
+}
+.goldenIcon {
+  color: #ff8f1c;
+  font-size: 18px;
+}
+
+.sublimeIcon {
+  color: #93c90f;
+  font-size: 18px;
+}
+
+.alcoholIcon {
+  color: #bfc0ee;
+  font-size: 18px;
+}
+
+.ingredientSpan {
+  font-size: 18px;
+  padding-right: 7.5px;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0%;
+  }
+}
+
+.health-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.health-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.health-icon img {
+  width: 25px;
+  height: auto;
+}
+
+.loading-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loading-text {
+  color: white;
+  margin-top: 20px; 
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+}
+
+.loadingGif{
+  max-width: 100px; 
+  max-height: 100px;
+}
+
